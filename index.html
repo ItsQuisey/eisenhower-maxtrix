@@ -11,12 +11,55 @@
     <button id="alertButton">Click Me</button>
 
     <div class="matrix">
-        <div class="quadrant urgent-important">Urgent & Important</div>
-        <div class="quadrant not-urgent-important">Not Urgent & Important</div>
-        <div class="quadrant urgent-not-important">Urgent & Not Important</div>
-        <div class="quadrant not-urgent-not-important">Not Urgent & Not Important</div>
+        <div class="quadrant urgent-important">
+            <h2>Urgent & Important</h2>
+            <div class="task">
+                <input type="checkbox">
+                <span>Finish project report</span>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <span>Pay bills</span>
+            </div>
+        </div>
+
+        <div class="quadrant not-urgent-important">
+            <h2>Not Urgent & Important</h2>
+            <div class="task">
+                <input type="checkbox">
+                <span>Plan long-term strategy</span>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <span>Schedule health checkup</span>
+            </div>
+        </div>
+
+        <div class="quadrant urgent-not-important">
+            <h2>Urgent & Not Important</h2>
+            <div class="task">
+                <input type="checkbox">
+                <span>Reply to some emails</span>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <span>Answer phone calls</span>
+            </div>
+        </div>
+
+        <div class="quadrant not-urgent-not-important">
+            <h2>Not Urgent & Not Important</h2>
+            <div class="task">
+                <input type="checkbox">
+                <span>Browse social media</span>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <span>Watch TV shows</span>
+            </div>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="task_manager.js"></script>
 </body>
 </html>
